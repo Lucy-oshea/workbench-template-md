@@ -1,5 +1,5 @@
 ---
-title: "Using Markdown"
+title: "RDM Basics"
 teaching: 10
 exercises: 2
 ---
@@ -93,21 +93,20 @@ e.g. by providing the answer to a commonly-asked question.
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 
-## Math
+## Task 2: On Paper
 
-One of our episodes contains $\LaTeX$ equations when describing how to create
-dynamic reports with {knitr}, so we now use mathjax to describe this:
+- Think of your own research, can you image what tasks will be involved?
+  Write these down and link them to the appropriate <u>steps of the lifecycle</u>. The VU’s data management plan is modelled from this lifecycle. 
 
-`$\alpha = \dfrac{1}{(1 - \beta)^2}$` becomes: $\alpha = \dfrac{1}{(1 - \beta)^2}$
 
-Cool, right?
+::::::::::::::::::::::::::::::::::::: Good Data Management:
 
-::::::::::::::::::::::::::::::::::::: keypoints 
+- Promotes the integrity of your research,
+- Increases the impact of your research,
+- Improves the quality of your data,
+- Supports future use of your research data, and
+- Complies with internal and external regulations.
 
-- Use `.md` files for episodes when you want static content
-- Use `.Rmd` files for episodes when you need to generate output
-- Run `sandpaper::check_lesson()` to identify any issues with your lesson
-- Run `sandpaper::build_lesson()` to preview your lesson locally
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
